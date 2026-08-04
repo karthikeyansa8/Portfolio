@@ -209,7 +209,7 @@ export default function Contact() {
                   required
                   value={formData.message}
                   onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                  placeholder="Hi Karthikeyan, I'd like to discuss a opportunity..."
+                  placeholder="Hi Karthikeyan, I'd like to discuss about a opportunity..."
                   className="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-800 text-sm text-white placeholder-slate-500 focus:outline-none focus:border-sky-500 transition-colors resize-none"
                 />
               </div>
